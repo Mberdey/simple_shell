@@ -8,11 +8,6 @@
 #include <string.h>
 
 /* Function Prototypes */
-void print_prompt();
-char *read_input();
-void execute_command(char *command);
-void handle_errors();
-int main(__attribute__((unused))int argc, char **argv);
 void handle_cd(char **args);
 void execute_builtin_cmvd(char **args);
 void handle_exit(char **args);
