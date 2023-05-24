@@ -11,5 +11,6 @@ void print_prompt();
 char *read_input();
 void execute_command(char *command);
 void handle_errors();
+int main(__attribute__((unused))int argc, char **argv);
 
 #endif
